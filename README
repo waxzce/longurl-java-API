@@ -1,0 +1,18 @@
+
+This is a very simple java API for longurl.org
+I don't care about this project but it can be helpfull…
+
+a build is in the dist directory
+
+depend of GSON (json parser) : http://code.google.com/p/google-gson/
+
+use like this :
+
+LongUrl u = new LongUrl("yourShortUrl")
+u.getLongUrl(); // return string with the long url
+u.getTitle(); // return string with page title
+
+
+code is MIT licenced
+
+contact me for improvements
